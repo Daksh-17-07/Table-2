@@ -1,0 +1,25 @@
+
+table{
+    width: 100%;
+    border-bottom: 7px solid pink;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: left;
+    padding: 10px;
+}
+th{
+    background-color: #D8A2A2;
+    color: #FFF9D6;
+}
+tr:nth-child(odd){
+    background-color: #FFDCDC;
+}
+tr:nth-child(even){
+    background-color: #FFF9D6;
+}
+h1{
+    font-style: italic;
+    color: rgba(14, 131, 235, 0.596);
+    text-align: center;
+}
